@@ -10,3 +10,5 @@
 |ParallelExecutor.cpp|워커 스레드 body 구현|
 |SparseSet.h|ECS 컴포넌트를 저장하는 Sparse set<br/>Dense Array와 Sparse Array를 이용한 빠른 순회와 임의 접근<br/>Swap-and-pop을 이용한 빠른 원소 삭제<br/>페이징과 placement new를 이용한 효율적 메모리 사용|
 |ThreadRegistration.h|게임에서 사용할 스레드들에게 0~n-1의 연속적 번호를 부여하는 클래스<br/>ParallelExecutor나 Pathfinder 등에서 배열에 스레드별 공간을 할당하기 위해 활용 가능|
+|G_Pathfinder.h|멀티스레드 A* 알고리즘을 위한 스레드 별 저장소 구현|
+|G_Pathfinder.cpp|멀티스레드 A* 탐색 및 노드 생성 구현|
